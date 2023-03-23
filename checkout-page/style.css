@@ -1,7 +1,9 @@
-body {
+html, body {
     font-family: 'Open Sans', sans-serif;
     background-color: #43281c;
     margin: 0;
+    height: 100%;
+    
 }
 
 header {
@@ -12,10 +14,89 @@ header {
     justify-content: center;
 }
 
-
-
 .main {
     background-color: #efefef;
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 10px;
+    position: absolute;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10;
+    grid-template-rows: repeat(10, 1fr);
+    gap: 5%;
+}
+
+.items {
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+    background-color: #eee1d5;
+    border-radius: 3px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: 10% repeat(auto-fill, 1fr);
+    grid-template-columns: 10% 80% 10%;
+
+}
+
+.section-name1 {
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+    padding: 10px;
+}
+
+.item-1 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 10% 65% 25%;
+    background-color: brown;
+    grid-row: 2 / 2;
+    grid-column: 1 / 4;
+    
+   
+}
+
+.item-2 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 10% 65% 25%;
+    background-color: brown;
+    grid-row: 3 / 4;
+    grid-column: 1 / 4;
+   
+}
+
+.item-3 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 10% 65% 25%;
+    background-color: brown;
+    grid-row: 4 / 5;
+    grid-column: 1 / 4;
+    
+}
+
+.qty {
+    background-color: powderblue;
+    grid-column: 1 / 1;
+    padding: 15px 10px;
+}
+
+.item {
+    background-color: orange;
+    grid-column: 2/2;
+    padding: 15px 10px;
+    
+}
+
+.cost {
+    grid-column: 3 /3;
+    padding: 15px 10px;
+}
+
+.gradient {
+    background: linear-gradient(90deg, rgba(255,23,228,1) 0%, rgba(134,251,251,1) 100%);
+    height: 3px;
+    grid-column: 1/4;
+    
 }
