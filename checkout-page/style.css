@@ -8,15 +8,14 @@ html, body {
     
 }
 
-header {
+/*HEADER AND BACKGROUND SECTION*/
 
+header {
     color: #fbf2c0;
     display: flex;
     padding: 15px;
     justify-content: center;
 }
-
-
 
 .main {
     background-color: #efefef;
@@ -29,6 +28,8 @@ header {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(20, 1fr);
 }
+
+/*ITEMS SECTION*/
 
 .items {
     grid-column: 1 / 2;
@@ -55,7 +56,6 @@ header {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 10% 65% 25%;
-    
     grid-row: 2 / 2;
     grid-column: 1 / 4;
 
@@ -65,7 +65,6 @@ header {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 10% 65% 25%;
-    
     grid-row: 3 / 4;
     grid-column: 1 / 4;
    
@@ -75,7 +74,6 @@ header {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 10% 65% 25%;
-    
     grid-row: 4 / 5;
     grid-column: 1 / 4;
     
@@ -98,6 +96,20 @@ header {
     padding: 15px 10px;
 }
 
+.horizontal {
+    margin: -10px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+hr {
+    border-top: 2px solid #b08968;
+}
+
+/*NAME SECTION*/
+
 .name {
     grid-column: 2 / 3;
     grid-row: 1 / 5;
@@ -119,7 +131,7 @@ header {
     display: flex;
     justify-content: center;
 
-  }
+}
 
 .input {
     border-color: #885a2d;
@@ -144,6 +156,8 @@ header {
 .section-name3 {
     padding-bottom: 25px;
 }
+
+/*PAYMENT SECTION*/
 
 .payment {
     grid-column: 2 / 3;
@@ -216,6 +230,8 @@ header {
     
 }
 
+/*BUTTON SECTION*/
+
 .order {
     grid-column: 1 / 4;
     grid-row: 19 / 21;
@@ -235,6 +251,8 @@ header {
     height: 35px;
     
 }
+
+/*COST SECTION*/
 
 .summary {
     grid-column: 1/2;
@@ -279,14 +297,3 @@ header {
     padding-top: 15px;
 }
 
-.horizontal {
-    margin: -10px 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-    grid-column: 1/4;
-    grid-row: 3/4;
-}
-
-hr {
-    border-top: 2px solid #b08968;
-}
