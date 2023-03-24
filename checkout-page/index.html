@@ -26,27 +26,25 @@
                 ITEMS
                 </div> 
                 
-                
-                <div class="item-1">
+                <div class="item-1 flex-between">
                 <span class="qty">1x</span>
                 <span class="item"><b>Cappuccino</b><br>Light Foam</span>
                 <span class="cost"><b>$6.00</b></span>
+                <div class="horizontal"><hr></div>
+            </div>
                 
-                </div>
-                
-                
-                <div class="item-2">
+
+                <div class="item-2 flex-between">
                 <span class="qty">1x</span>
                 <span class="item"><b>Cappuccino</b><br>Almond Milk<br>Double Espresso Shot</span>
                 <span class="cost"><b>$7. 90</b></span>
-                    
+                <div class="horizontal"><hr></div>  
                 </div> 
                 
-                <div class="item-3">
+                <div class="item-3 flex-between">
                 <span class="qty">1x</span>
                 <span class="item"><b>Croissant</b><br>Butter</span>
                 <span class="cost"><b>$5.37</b></span>
-                
                 </div>
                 
             </div>
@@ -57,25 +55,52 @@
                 NAME
                 </div> 
             
-                <div class="input">Name for order</div>
+                <div class="input-group">
+                    <label for="name" class="input-label">Name for order</label>
+                    <input type="text" class="input" id="name" placeholder="Enter here"/>
+                </div>
+
+            </div>
+            
+            
+            <div class="payment">
+
+                <div class="section-name3">
+                PAYMENT
+                </div> 
+            
+                <div class="payment-group">
+
+                    <div class="payment-group1">
+                        <label for="cdnum" class="card-label">Card Number</label>
+                        <input type="text" class="card" id="cdnum" placeholder="1234 5678 9012 3456"/>
+                    </div>
+
+                    <div class="payment-group2">      
+                        <label for="ccnum" class="ccv-label">CCV Number</label>
+                        <input type="text" class="ccv" id="ccnum" placeholder="001"/>
+                    </div>
+
+                </div>
 
             </div>
 
-            PAYMENT
-            Card Number
-            CCV Number
-
-            Subtotal
-            $19.27
-
-            Tax
-            $0.96
-
-            Total
-            $20.23
-
-            Place Order
+            <div class="summary">
+                <span class="sub">Subtotal:</span><br>
+                <span class="tax">Tax:</span><br>
+                <span class="tot"><b>Total:</b></span>
+            </div>    
             
+            <div class="amounts">
+                <span class="sub1">$19.27</span><br>
+                <span class="tax1">$0.96</span><br>
+                <span class="tot1"><b>$20.23</b></span>
+            </div>
+            
+            <div class="order">
+                <button class="press" type="submit">Place order</button>
+            </div>
+
         </div>
     </Main>
 </body>
