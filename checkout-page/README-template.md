@@ -5,8 +5,7 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
- <!-- - [Links](#links)-->
+  - [Screenshot](#screenshot)<!-- - [Links](#links)-->
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -29,8 +28,12 @@ View a standard layout for a coffee shop checkout interface.
 - See hover and focus states for all interactive elements on the page-->
 ### Screenshot
 
+<<<<<<< HEAD
 ![](./assets/images/Top.png)
 ![](./assets/images/Bottom.png)
+=======
+![image](https://user-images.githubusercontent.com/127749296/227517205-04ab2a0d-21e6-4d9d-9038-2c8725bdd02a.png)
+>>>>>>> 6587759a4380239dc2554efc0611fecdc5e6fc63
 
 <!--Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
