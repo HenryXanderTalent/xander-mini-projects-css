@@ -1,4 +1,4 @@
-# News homepage solution
+# Coffee Shop checkout solution
 
 
 ## Table of contents
